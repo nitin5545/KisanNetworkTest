@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.border {
+  border: 1px solid #e0e3e6;
+  border-radius: 5px;
+  --padding-start: 10px
+}
+
+.paddingStart {
+  --padding-start: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.listItem {
+  --padding-start: 0px;
+  --min-height: 50px
+}
+
+.mx_10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.backIcon {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.avatar {
+  background: #e0e3e6;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #009fee;
+  font-weight: 600;
+}
+
+.mr_8 {
+  margin-right: 8px;
+}
+
+.contactDetailGrid {
+  margin-top: 27px;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.radius {
+  border-radius: 8px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.f18_l20 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.mb_16 {
+  margin-bottom: 16px;
+}
+
+.mr_22 {
+  margin-right: 22px;
+}
+
+.mt_16 {
+  margin-top: 16px;
+}
+
+.messageDate {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #9fa3a7;
+}
+
+.noMessages {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

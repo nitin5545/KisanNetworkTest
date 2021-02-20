@@ -1,0 +1,28 @@
+[
+    {
+        "firstName": "John",
+        "lastName":"Doe",
+        "phoneNumber":"7985809131"
+    },
+    {
+        "firstName": "James",
+        "lastName":"Doe",
+        "phoneNumber":"7985809132"
+    },
+    {
+        "firstName": "Jane",
+        "lastName":"Doe",
+        "phoneNumber":"7985809121"
+    },
+    {
+        "firstName": "Jean",
+        "lastName":"Doe",
+        "phoneNumber":"7985804131"
+    },
+    {
+        "firstName": "Jules",
+        "lastName":"Doe",
+        "phoneNumber":"7985809131"
+    }
+
+]
